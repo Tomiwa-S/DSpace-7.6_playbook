@@ -1,11 +1,13 @@
 # DSpace-7.6_playbook
 This repository contains the ansible playbooks for installing DSpace v7.6 on a linux server
+<a href="https://docs.ansible.com/ansible/latest/getting_started/index.html" target="_blank">Official Ansible documentation</a>
+
 
 Prerequisites
 Before running the playbooks, ensure you have the following:
 
 Ansible Installed:
-<a href="https://docs.ansible.com/ansible/latest/getting_started/index.html" target="_blank">Official Ansible documentation</a>
+
 Install Ansible on your control machine:
 <code>
 sudo apt update
