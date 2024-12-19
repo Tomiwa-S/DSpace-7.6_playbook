@@ -9,8 +9,7 @@ Before running the playbooks, ensure you have the following:
 Ansible Installed:
 
 Install Ansible on your control machine:
-<code>
-sudo apt update
+<code>sudo apt update
 sudo apt install ansible -y
 </code>
 
@@ -23,15 +22,13 @@ Dependencies:
 Python and essential build tools should be pre-installed on the target machine.
 
 The inventory.ini file specifies the target host(s) for deployment. Update it as needed:
-<code>
-[hosts]
+<code>[hosts]
 your_target_machine ansible_user=your_user
 </code>
 
 # _Running the playbook_
 
-<code>
-  ansible-playbook -i inventory.ini [playbook]
+<code>ansible-playbook -i inventory.ini [playbook]
 </code>
 
 
