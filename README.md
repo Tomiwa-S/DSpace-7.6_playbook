@@ -5,6 +5,7 @@ Prerequisites
 Before running the playbooks, ensure you have the following:
 
 Ansible Installed:
+<a href="https://docs.ansible.com/ansible/latest/getting_started/index.html" target="_blank">Official Ansible documentation</a>
 Install Ansible on your control machine:
 <code>
 sudo apt update
