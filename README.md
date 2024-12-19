@@ -25,3 +25,10 @@ The inventory.ini file specifies the target host(s) for deployment. Update it as
 your_target_machine ansible_user=your_user
 </code>
 
+# _Running the playbook_
+
+<code>
+  ansible-playbook -i inventory.ini [playbook]
+</code>
+
+
